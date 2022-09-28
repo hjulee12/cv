@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <p>hjulee12@gamil.com</p>
+    <p>Seoul, South Korea</p>
+    <hr>
+    <form action="mailto:hjulee12@gmail.com" method="post" enctype="text/plain">
+      <!-- what happens when submit is clicked: action => the action is simply take the user to the index.html page
+           enctype: encoding type -->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>  <!-- name identifies the data that's inside each of these inputs -->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>  <!-- rows determine how tall your text area should be, and column determine how wide it should be on your web page -->
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
